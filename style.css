@@ -129,5 +129,10 @@ footer.site { border-top: 1px solid var(--line); padding: 30px 0 40px; text-alig
 footer.site nav { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: center; margin-bottom: 12px; }
 footer.site a { color: var(--muted); }
 .grid.g4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-.hero-icon { width: 200px; height: 200px; border-radius: 44px; display: block; margin: 0 auto 28px; box-shadow: 0 10px 30px rgba(0,0,0,.28); }
-@media (max-width: 640px) { .hero-icon { width: 150px; height: 150px; border-radius: 33px; } }
+.hero-icon { width: 240px; height: 240px; border-radius: 56px; display: block; margin: 0 auto 44px; box-shadow: 0 12px 34px rgba(0,0,0,.3); }
+@media (max-width: 640px) { .hero-icon { width: 180px; height: 180px; border-radius: 42px; margin-bottom: 36px; } }
+.stores { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+.stores .btn { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.15; padding: 11px 26px; min-width: 190px; }
+.stores .s1 { font-size: 12px; font-weight: 500; }
+.stores .s2 { font-size: 20px; font-weight: 700; }
+.soon-note { margin: 16px 0 0; font-size: 14px; color: #CFE6D9; }
